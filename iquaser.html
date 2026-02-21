@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iQuasar Software Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#0f2027;
+            background:linear-gradient(to right,#2c5364,#203a43,#0f2027);
+            color:white;
+        }
+
+        header{
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        header h1{
+            font-size:40px;
+        }
+
+        header p{
+            margin-top:10px;
+            color:#ccc;
+        }
+
+        nav{
+            text-align:center;
+            padding:15px;
+            background:rgba(255,255,255,0.1);
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#00f2fe;
+        }
+
+        section{
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.1);
+            padding:20px;
+            margin:20px auto;
+            width:80%;
+            max-width:600px;
+            border-radius:10px;
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+            background:rgba(255,255,255,0.2);
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:rgba(0,0,0,0.3);
+            margin-top:30px;
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            background:#00f2fe;
+            color:black;
+            font-weight:bold;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>iQuasar Software Solutions</h1>
+    <p>Innovative IT Solutions & Digital Transformation</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#careers">Careers</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About iQuasar</h2>
+    <div class="card">
+        <p>
+            iQuasar Software Solutions Pvt. Ltd. is a growing IT company 
+            providing innovative software solutions, web development, 
+            and technology services to clients worldwide.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="card">Web Development</div>
+    <div class="card">Mobile App Development</div>
+    <div class="card">Software Development</div>
+    <div class="card">IT Consulting</div>
+</section>
+
+<section id="careers">
+    <h2>Careers</h2>
+    <div class="card">
+        <p>
+            Join our team of skilled professionals and grow your career 
+            in a dynamic and innovative environment.
+        </p>
+        <button onclick="showMessage()">Apply Now</button>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="card">
+        <p>Email: info@iquasar.com</p>
+        <p>Location: Srinagar, J&K</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 iQuasar Software Solutions | Demo Website by Tehleel Zahid</p>
+</footer>
+
+<script>
+    function showMessage(){
+        alert("Thank you for your interest in iQuasar!");
+    }
+</script>
+
+</body>
+</html>
